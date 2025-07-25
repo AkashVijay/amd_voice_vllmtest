@@ -1,0 +1,5 @@
+fastmcp
+requests
+feedparser
+sqlalchemy
+mcpo
