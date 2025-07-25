@@ -1,0 +1,34 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# VS Code settings
+.vscode/
+
+# Python virtual environments
+venv/
+env/
+mcp-env/
+
+# Logs and system files
+*.log
+.DS_Store
+
+# SQLite database
+db/arxiv.db
+
+# Python egg info
+*.egg-info/
+
+# Docker
+*.pid
+*.bak
+*.swp
+
+# Coverage
+htmlcov/
+.coverage
+
+# Git
+.git/
