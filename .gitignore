@@ -17,6 +17,7 @@ mcp-env/
 
 # SQLite database
 db/arxiv.db
+db/__pycache__/
 
 # Python egg info
 *.egg-info/
@@ -32,3 +33,13 @@ htmlcov/
 
 # Git
 .git/
+
+# Ignore model + cache files
+open-webui/cache/
+*.bin
+*.pt
+*.ckpt
+*.tar.gz
+*.h5
+*.onnx
+*.pb
