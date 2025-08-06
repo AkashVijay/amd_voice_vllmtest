@@ -12,6 +12,8 @@ Model Context Protocols (MCPs) make it easier to connect different AI models, AP
 
 This project is a plan to build an MCP server that uses the arXiv API. Using Large Language Models(LLMs) to understand and find papers is extremely fatiguing. Tools are limited and the information presented isn't accurate. This project wants to leverage an opensource and free research paper API to help provide more strict and correct information when skimming academic papers to save time while understanding. It also incorporates a database made in SQLite that the user can interact with if there are specific papers they favor or want to come back to. This project was done by adding MCP tools such as a search, filter by date, filter by author, summarizing based on different levels of understanding, comparing papers, and save, retrieve, and delete tools for the database.
 
+Built With
+
 VSCode
 Python
 OpenWebUI
