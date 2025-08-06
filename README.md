@@ -78,11 +78,13 @@ Variables in the docker compose file:
 
 Flow Chart:
 
+![image alt](https://github.com/AkashVijay/amd_voice_vllmtest/blob/main/assets/flow.png?raw=true)
+
 Here is a short walk through of my server. Examples of questions and response are shown below. OpenWebUI is used as a chat interface for the user to interact with. It is used to send and recieve messages through either text or voice depending on user preference. The LLM used in this case is the XLAM model from Salesforce. The MCP uses it's tools to pull information from the ArXiv API. It also has a database from which it can store iformation from the API, or retrieve information based on the user's wishes.
 
 Software Stack:
 
-
+![image alt](https://github.com/AkashVijay/amd_voice_vllmtest/blob/main/assets/stack.png?raw=true)
 
 ## Usage/Model Setup
 
@@ -139,18 +141,23 @@ Here are a couple sample output from using the tools that are apart of this serv
 
 Searching by a topic:
 
-
+![image alt](https://github.com/AkashVijay/amd_voice_vllmtest/blob/main/assets/search_arxiv.png?raw=true)
 
 Filter by date:
 
-
+![image alt](https://github.com/AkashVijay/amd_voice_vllmtest/blob/main/assets/Search_date.png?raw=true)
 
 Filter by author:
 
-
+![image alt](https://github.com/AkashVijay/amd_voice_vllmtest/blob/main/assets/Search_Author.png?raw=true)
 
 Summarize Abstract as a 10 year old, college grad, PhD student:
 
+![image alt](https://github.com/AkashVijay/amd_voice_vllmtest/blob/main/assets/Summarize.png?raw=true)
+
+Compare:
+
+![image alt](https://github.com/AkashVijay/amd_voice_vllmtest/blob/main/assets/Compare.png?raw=true)
 
 ### Examples
 
